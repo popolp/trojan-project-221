@@ -1,0 +1,8 @@
+logging
+os
+slack_bolt
+py2exe
+webbrowser
+slack_sdk
+gzip
+shutil
