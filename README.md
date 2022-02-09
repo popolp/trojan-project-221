@@ -9,7 +9,7 @@ And it is used ONLY FOR EDUCATIONAL PURPOSES: a Python-based spyware for Windows
 ## Design
 
 <p align="center">
-  <img align="center" width="700" src="https://github.com/popolp/troj-project-221/blob/master/resources/Design.jpg?raw=true">
+  <img align="center" width="700" src="https://github.com/popolp/trojan-project-221/blob/master/resources/Design.jpg?raw=true">
 </p>
   
 
