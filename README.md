@@ -1,6 +1,6 @@
 ## This is a Spyware
 
-And it is used ONLY FOR EDUCATIONAL PURPOSES: a Python-based spyware for Windows. This spyware logs keyboard inputs, it is able to take screenshots, run shell commands and obtain different information on the computer, as well as files. It is meant to be connected to a Slack server and the entire connection is made through Slack Bot commands.
+And it is used ONLY FOR EDUCATIONAL PURPOSES: a Python-based spyware for Windows. This spyware logs keyboard inputs, it is able to take screenshots, run shell commands and obtain different information on the computer, as well as files. It is meant to be connected to a Slack server and the entire connection is made through Slack Bot commands. This connection decision was made to support administration of multiple infected machines.
 
 ## To create the .exe file
 
