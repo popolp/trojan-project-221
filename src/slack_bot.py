@@ -15,14 +15,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 """
 This class is used to handle commands and events sent by the owner in the slack workspace.
 Each active instance will receive messages in its own channel, and respond in its own channel.
-    Commands:
-    - /terminate - terminates the session
-    - /echo - liveliness message
-    - /change_channel <slack_channel_id> <compter_name> - changes input/output channel to value
-    - /capture_screen - captures screen, saves localy and sends back in channel
-    - /request_file <path> - bot sends file to channel 
+Find out about the commands in the README.md file.
 """
-
 
 class slackBot:
     def __init__(self, config: Config) -> None:

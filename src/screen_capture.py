@@ -1,6 +1,11 @@
 from PIL import ImageGrab
 from config import Config
 
+"""
+This class is used to manage the screen capturing function.
+Uses a counter to determine the name of the images captured, 
+and saves them in the specified path in the config file.
+"""
 class ScreenCapture():
 
     def __init__(self, config: Config):

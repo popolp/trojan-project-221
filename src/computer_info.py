@@ -1,7 +1,10 @@
 from config import Config
 import os, string, psutil
 
-
+"""
+This class handles the computer info - directory list and process list retrieval.
+The dirlist function follows a tree for each avaliable drive via the os.walk method.
+"""
 class ComputerInfo:
     def __init__(self, config: Config):
         self.__config = config

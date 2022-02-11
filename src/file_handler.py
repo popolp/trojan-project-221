@@ -4,7 +4,10 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 import blocks
 
-
+"""
+This class handles files upload from a specified path and zips them.
+Only zips files that are not JPG, since Slack shows a preview of the image and zipping it is just less nice.
+"""
 class FileHandler:
     def __init__(self, config: Config):
         self.screenshotCounter = 0
