@@ -51,3 +51,24 @@ The keylogger will automatically be activated when the malware runs. It will rec
 * `/whos_alive` - Meant to be used on the main project channel. Pings all machines for a liveness request.
 
 * `/terminate` - Terminates the session of the program until next startup.
+
+
+## How it looks in Slack
+
+* Keylogger output:
+
+<p align="center">
+  <img align="center" width="700" src="https://github.com/popolp/trojan-project-221/blob/master/resources/keylogger.png?raw=true">
+</p>
+
+* `/get_dirlist` and `/get_process_list` output:
+
+<p align="center">
+  <img align="center" width="700" src="https://github.com/popolp/trojan-project-221/blob/master/resources/dirlist_processlist.png?raw=true">
+</p>
+
+* `/capture_screen` output:
+
+<p align="center">
+  <img align="center" width="700" src="https://github.com/popolp/trojan-project-221/blob/master/resources/screenshot.png?raw=true">
+</p>
